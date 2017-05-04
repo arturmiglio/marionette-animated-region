@@ -61,7 +61,7 @@
     delete this.currentView;
 
     if (!view._isDestroyed) {
-      this._removeView(view, options);
+      this.removeView(view, options);
       delete view._parent;
     }
 
